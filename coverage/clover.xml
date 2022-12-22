@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1671723070396" clover="3.2.0">
+  <project timestamp="1671723070398" name="All files">
+    <metrics statements="29" coveredstatements="29" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8" elements="43" coveredelements="43" complexity="0" loc="29" ncloc="29" packages="2" files="7" classes="7"/>
+    <package name="services">
+      <metrics statements="21" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+      <file name="getPosts.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\services\getPosts.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="getUsers.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\services\getUsers.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="letterServices.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\services\letterServices.js">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="6" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="test.mocks">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="invalid-user.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\test\mocks\invalid-user.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="letter.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\test\mocks\letter.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+      </file>
+      <file name="posts.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\test\mocks\posts.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+      </file>
+      <file name="users.js" path="C:\Users\igorsobral\Documents\teste-visual-nutsjs\src\test\mocks\users.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
