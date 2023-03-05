@@ -16,6 +16,8 @@ mockedAxios
     .mockResolvedValueOnce(mocks.posts)
 
 describe('Async requests', () => {
+  afterEach(jest.clearAllMocks)
+
   it('should return posts and when requested', async () => {
     const posts = await getPosts()
 
@@ -23,7 +25,7 @@ describe('Async requests', () => {
     expect(mockedAxios.get).toHaveBeenCalledTimes(1)
     expect(posts).toEqual(mocks.posts)
   })
-  
+    
   it('should return message of error when request fails', async () => {
     const message = 'cant get the posts'
     mockedAxios.get.mockRejectedValueOnce(new Error(message));
@@ -33,4 +35,5 @@ describe('Async requests', () => {
     expect(mockedAxios.get).toHaveBeenCalledWith(`${BASE_URL}/posts`);
     expect(posts).toEqual("can't get the posts");
   })
+
 })

@@ -16,6 +16,8 @@ mockedAxios
     .mockResolvedValueOnce(mocks.users)
 
 describe('Async requests', () => {
+  afterEach(jest.clearAllMocks)
+
   it('should return users and when requested', async () => {
     const users = await getUsers()
     expect(mockedAxios.get).toHaveBeenCalledWith(`${BASE_URL}/users`)
